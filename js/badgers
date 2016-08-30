@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require("skilstak-colors");
+
+console.log(c.clear);
+
+for (var n = 11; n > 0; n--) {
+  console.log(c.multi(n + " " + "badger"));
+}
+
+for (var n = 1; n < 3; n++) {
+  console.log(c.r + n + " " + "mushroom");
+}

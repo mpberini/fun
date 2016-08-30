@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var c = require("skilstak-colors");
+
+'use strict';
+
+console.log("Hi! I'm your Computer Buddy! Simply type whatever you want to say and i'll respond!");
+
+var response = [
+  "Wow!",
+  "That's so cool!",
+  "Okay.",
+  "I have a better topic... PIE!",
+  "No... that's just weird...",
+  "Do you wanna talk about graphing calculators?",
+  "You're my BFF.",
