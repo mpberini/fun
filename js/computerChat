@@ -5,12 +5,5 @@ var c = require("skilstak-colors");
 'use strict';
 
 console.log("Hi! I'm your Computer Buddy! Simply type whatever you want to say and i'll respond!");
-
-var response = [
-  "Wow!",
-  "That's so cool!",
-  "Okay.",
-  "I have a better topic... PIE!",
-  "No... that's just weird...",
-  "Do you wanna talk about graphing calculators?",
-  "You're my BFF.",
+Prompt("First, let's get to know eachother! What's your name?");
+console.log("What a nice name! My name is Buddy!");
